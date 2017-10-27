@@ -13,9 +13,6 @@ enum eDir { STOP = 0, LEFT = 1, UP = 2, RIGHT = 3, DOWN = 4 };
 class cWorld
 {
 private:
-	int x, y, z, i;
-	int checkDir;
-	int movingDirection;
 	vector<unique_ptr<cTiles>> tileVector;
 public:
 	cWorld();
